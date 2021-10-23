@@ -41,7 +41,7 @@ class Chats {
   String file;
   String status;
   Duration position, duration;
-  PlayerState playerState = PlayerState.STOPPED;
+  AudioPlayerState playerState = AudioPlayerState.STOPPED;
   AudioPlayer audioPlayer = AudioPlayer();
 
   Chats({
