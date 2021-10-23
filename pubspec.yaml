@@ -45,7 +45,7 @@ dependencies:
   url_launcher: ^6.0.12
   intl: ^0.17.0
   video_player: ^2.2.5
-  audioplayers:
+  audioplayers: ^0.20.1
   share: ^2.0.4
   flutter_webview_plugin: ^0.4.0
   dio: ^4.0.0
