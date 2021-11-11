@@ -343,6 +343,8 @@ PODS:
     - AppAuth/ExternalUserAgent (= 1.4.0)
   - AppAuth/Core (1.4.0)
   - AppAuth/ExternalUserAgent (1.4.0)
+  - audioplayers (0.0.1):
+    - Flutter
   - BoringSSL-GRPC (0.0.7):
     - BoringSSL-GRPC/Implementation (= 0.0.7)
     - BoringSSL-GRPC/Interface (= 0.0.7)
@@ -470,6 +472,9 @@ PODS:
   - fluttertoast (0.0.2):
     - Flutter
     - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - google_sign_in (0.0.1):
     - Flutter
     - GoogleSignIn (~> 5.0)
@@ -534,6 +539,8 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
+  - path_provider (0.0.1):
+    - Flutter
   - PromisesObjC (2.0.0)
   - SDWebImage (5.12.1):
     - SDWebImage/Core (= 5.12.1)
@@ -542,6 +549,9 @@ PODS:
     - Flutter
   - shared_preferences (0.0.1):
     - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
   - SwiftyGif (5.4.0)
   - Toast (4.0.0)
   - url_launcher (0.0.1):
@@ -550,6 +560,7 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
+  - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
   - cloud_firestore (from `.symlinks/plugins/cloud_firestore/ios`)
   - file_picker (from `.symlinks/plugins/file_picker/ios`)
   - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
@@ -561,8 +572,10 @@ DEPENDENCIES:
   - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
   - google_sign_in (from `.symlinks/plugins/google_sign_in/ios`)
   - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - share (from `.symlinks/plugins/share/ios`)
   - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
   - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
   - video_player (from `.symlinks/plugins/video_player/ios`)
 
@@ -582,6 +595,7 @@ SPEC REPOS:
     - FirebaseFirestore
     - FirebaseInstallations
     - FirebaseMessaging
+    - FMDB
     - GoogleDataTransport
     - GoogleSignIn
     - GoogleUtilities
@@ -597,6 +611,8 @@ SPEC REPOS:
     - Toast
 
 EXTERNAL SOURCES:
+  audioplayers:
+    :path: ".symlinks/plugins/audioplayers/ios"
   cloud_firestore:
     :path: ".symlinks/plugins/cloud_firestore/ios"
   file_picker:
@@ -619,10 +635,14 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/google_sign_in/ios"
   image_picker:
     :path: ".symlinks/plugins/image_picker/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
   share:
     :path: ".symlinks/plugins/share/ios"
   shared_preferences:
     :path: ".symlinks/plugins/shared_preferences/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
   url_launcher:
     :path: ".symlinks/plugins/url_launcher/ios"
   video_player:
@@ -631,6 +651,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
   AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  audioplayers: 455322b54050b30ea4b1af7cd9e9d105f74efa8c
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
   cloud_firestore: 0c744725c0d1544d77db2c8eb35ef919cb19a176
   DKImagePickerController: b5eb7f7a388e4643264105d648d01f727110fc3d
@@ -652,6 +673,7 @@ SPEC CHECKSUMS:
   flutter_facebook_login: cfb5659f686b1c575ef205c6b6fd20db9679d3c4
   flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
   fluttertoast: 6122fa75143e992b1d3470f61000f591a798cc58
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   google_sign_in: c5cecea71f3be43282263550556e311c4cc03582
   GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
   GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
@@ -663,10 +685,12 @@ SPEC CHECKSUMS:
   image_picker: 9aa50e1d8cdacdbed739e925b7eea16d014367e6
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  path_provider: d1e9807085df1f9cc9318206cd649dc0b76be3de
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
   share: 0b2c3e82132f5888bccca3351c504d0003b3b410
   shared_preferences: 5033afbb22d372e15aff8ff766df9021b845f273
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
   SwiftyGif: 5d4af95df24caf1c570dbbcb32a3b8a0763bc6d7
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   url_launcher: b6e016d912f04be9f5bf6e8e82dc599b7ba59649

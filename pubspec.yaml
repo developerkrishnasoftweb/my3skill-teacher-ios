@@ -32,7 +32,7 @@ dependencies:
   http: ^0.13.4
   shared_preferences: ^2.0.8
 
-#  cached_network_image: ^3.1.0
+  cached_network_image: ^3.1.0
 
   dotted_border: ^2.0.0
   image_picker: ^0.8.4
@@ -48,7 +48,7 @@ dependencies:
   intl: ^0.17.0
   video_player: ^2.2.5
 
-#  audioplayers: ^0.20.1
+  audioplayers: ^0.20.1
 
   share: ^2.0.4
   flutter_webview_plugin: ^0.4.0
@@ -60,7 +60,7 @@ dev_dependencies:
   flutter_localizations:
     sdk: flutter
 
-  flutter_launcher_icons: ^0.7.5
+#  flutter_launcher_icons: ^0.7.5
 
 flutter_icons:
   image_path_android: "assets/icon.png"
