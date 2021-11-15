@@ -1,4 +1,4 @@
-package com.app.my3skillteacher1
+package com.app.my3skillteacher
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

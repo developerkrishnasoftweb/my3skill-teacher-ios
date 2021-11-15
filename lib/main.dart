@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:my3skill_teacher_ios/add_course/add_course_image_screen.dart';
@@ -44,6 +45,8 @@ void main() async {
   sharedPref = await SharedPreferences.getInstance();
 
   Constants.loadUser();
+
+  await Firebase.initializeApp();
 
   runApp(
     MultiProvider(

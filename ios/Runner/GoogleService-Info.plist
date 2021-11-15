@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>690190508840-g7vp6vfhqetgri2hv2ec541aq5uc62hu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.690190508840-g7vp6vfhqetgri2hv2ec541aq5uc62hu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAxrjL3tMzNPlka9aGVNoGTeqUVUZloqOY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>690190508840</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.my3skillteacher</string>
+	<key>PROJECT_ID</key>
+	<string>my-skills-teacher</string>
+	<key>STORAGE_BUCKET</key>
+	<string>my-skills-teacher.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:690190508840:ios:b968754d119efd9e51e61d</string>
+	<key>DATABASE_URL</key>
+	<string>https://my-skills-teacher.firebaseio.com</string>
+</dict>
+</plist>
